@@ -21,7 +21,7 @@ import { useState } from 'react';
   { toggleMenu && <nav className="block md:hidden  ">
         <ul onClick={()=>usetoggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav">
             <li><a href="#about">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>\
+            <li><a href="#about">ABOUT</a></li>
             <li><a href="#project">PROJECT</a></li>
             <li><a href="#resume">RESUME</a></li>
 
